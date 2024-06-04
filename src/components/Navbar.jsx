@@ -8,7 +8,7 @@ const Navbar = () => {
   const [activeButton, setActiveButton] = useState("signup");
 
   return (
-    <div className="text-white flex items-center justify-between px-4 top-0 z-10 sticky w-full mt-7">
+    <div className="text-white bg-white flex items-center justify-between px-4 top-0 z-10 sticky w-full mt-7">
       <div className="lg:hidden ">
         {toggle && (
           <Hamburger
